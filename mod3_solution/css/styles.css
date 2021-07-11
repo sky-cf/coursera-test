@@ -19,8 +19,8 @@ p{
 }
 #heading{
     font-weight: 600;
-    color: black;
-    font-size: 1.3em;
+    color: darkblue;
+    font-size: 1.5em;
 }
 .section-title{
     top:-1px;
@@ -29,7 +29,7 @@ p{
     font-size: 18px;
 }
 .partition{
-    height: auto;
+    height: 500px;
     overflow: hidden;
     color: red;
     background-color: rgb(138, 236, 146);
@@ -52,10 +52,12 @@ p{
 .navbar-toggle{
     background: white;
 }
-#collapsable-nav{
-    background: maroon;
-}
 .navbar-default .navbar-nav>li>a {
     color: mintcream;
     size: 20px;
+}
+@media (max-width: 767px){
+    #collapsable-nav{
+        background: maroon;
+    }
 }
